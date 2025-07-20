@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, ChevronDown } from "lucide-react";
 import profilePhoto from "/lovable-uploads/835dd473-2cc9-4a44-9e07-0e2fb202b35e.png";
+import codingBackground from "@/assets/coding-background.jpg";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -11,8 +12,16 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center hero-gradient">
-      <div className="container mx-auto px-4 py-20">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${codingBackground})` }}
+      />
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 hero-gradient opacity-85" />
+      
+      <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Profile Image */}
           <div className="lg:w-1/2 flex justify-center">
