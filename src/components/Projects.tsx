@@ -29,7 +29,7 @@ const Projects = () => {
       category: "Physics & Simulation"
     },
     {
-      title: "DIU Math Society Website",
+      title: "DIU Mathematical Society Website",
       description: "Official website for the DIU Mathematical Society featuring event management, member registration, and mathematical problem archives.",
       technologies: ["Next.js", "MongoDB", "Express.js", "Node.js"],
       github: "https://github.com/afia-fahmida/diu-math-society",
