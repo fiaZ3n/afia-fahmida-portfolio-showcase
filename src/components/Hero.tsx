@@ -21,7 +21,7 @@ const Hero = () => {
                 <img
                   src={profilePhoto}
                   alt="Afia Fahmida"
-                  className="w-full h-full object-cover scale-150 object-center"
+                  className="w-full h-full object-cover scale-150 object-center transform translate-x-1"
                 />
               </div>
               <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-accent/20 to-primary/20 blur-xl -z-10"></div>
