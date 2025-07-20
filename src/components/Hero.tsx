@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, ChevronDown } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "/lovable-uploads/835dd473-2cc9-4a44-9e07-0e2fb202b35e.png";
 
 const Hero = () => {
   const scrollToAbout = () => {
